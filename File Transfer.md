@@ -10,6 +10,14 @@ Copy & paste with base64 encoding.
 `scp` Remote file copy via SSH.
 `wget` Retrieve remote files.
 
+# Netcat
+
+Receiving End
+`nc -lvnp port > destination_file`
+
+Sending End
+`nc -w3 destination_ip port < source_file`
+
 # PowerShell
 
 Invoke Web Request
