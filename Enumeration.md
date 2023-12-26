@@ -50,6 +50,11 @@ Brute Force
 RID Brute Force
 `crackmapexec smb ipaddress -u username -p password --rid-brute`
 
+# SNMP
+
+Scan SNMP v1 Service, Output to File
+`snmpwalk -v 1 -c public ipaddress > snmp.log`
+
 # TCP/IP
 
 Quickly Scan All Ports
