@@ -12,7 +12,7 @@ Manually enumerate user home directories for interesting files.
 `echo $PATH` Check the path.
 Relative path program exploits.
 `sudo -l` List commands user can run as root.
-`find / -type f -perm -4000 2>/dev/null` Find SUID binaries.
+`find / -perm -4000 2>/dev/null` Find SUID binaries.
 Check `/etc/apache2` and `/etc/nginx` for `sites-available` files to enumerate.
 Check `/var/www` and `/opt` for interesting files.
 `git log -p > all-git-commits.txt` Inspect git commits.
