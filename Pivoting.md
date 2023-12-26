@@ -59,6 +59,16 @@ Local Port Forwarding
 Remote Port Forwarding
 `ssh [-fNT to run in bg] -R [remote_addr:]remote_port:local_addr:local_port [user@]gateway_addr`
 
+Dynamic Port Forwarding
+```
+ssh -D port user@target
+
+Can configure browser proxy, e.g., FoxyProxy, for web access.
+
+To proxychains this, edit /etc/proxychains4.conf:
+socks5 127.0.0.1 port username password
+```
+
 # WinRM
 
 Evil-WinRM
