@@ -1,0 +1,27 @@
+
+- Port scanning
+- Web fuzzing
+- VHOST fuzzing
+- Wappalyzer to view website tech
+- OSINT
+- Gathering all links on the website
+- Viewing HTML and JavaScript source files
+- Adding domains to hosts file
+- Default credentials
+- SQL injection
+- NoSQL injection
+- File upload bypass
+- XML External Entity
+- Local/Remote File Inclusion
+- Reading from/writing to SSH key files
+- Reading from .env files and web server, git config, etc. files
+- Cookie tampering
+- Request/response interception/modification
+- Searching for technology exploits
+- Web shells
+- Reverse shells
+- Technology-specific exploits
+- Cracking password hashes
+- Re-using passwords across different services
+- Shell stabilization
+- Deserialization exploits
