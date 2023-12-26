@@ -33,14 +33,14 @@ Content-Type: application/x-www-form-urlencoded
 user=admin&password[$ne]=admin
 ```
 
-Test Payload 2
+Test Payload 3
 ```
 Content-Type: application/json
 {
 	"user":"admin",
 ```
 
-Test Payload 3
+Test Payload 4
 ```
 Content-Type: application/json
 {
