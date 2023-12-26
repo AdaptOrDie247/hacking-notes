@@ -53,8 +53,11 @@ RID Brute Force
 # TCP/IP
 
 Quickly Scan All Ports
-`sudo nmap -sS --min-rate 1000 -T4 -p- -v -oA nmap-ports ipaddress`
+`sudo nmap -sS --min-rate 1000 -T4 -p- -v -oA nmap-tcp ipaddress`
+
+UDP Scan Common 1000 Ports (Add -p- to scan all, but VERY slow)
+`sudo nmap -sU -v -oA nmap-udp ipaddress`
 
 Enumerate Services
-`sudo nmap -sSVC -p22,80,445 -oA nmap-services ipaddress`
+`sudo nmap -sSVC -p22,80,445 -oA nmap-tcp-services ipaddress`
 
