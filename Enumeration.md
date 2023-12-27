@@ -66,3 +66,7 @@ UDP Scan Common 1000 Ports (Add -p- to scan all, but VERY slow)
 Enumerate Services
 `sudo nmap -sSVC -p22,80,445 -oA nmap-tcp-services ipaddress`
 
+# WordPress
+
+Check the plugins directory
+`/wp-content/plugins`
