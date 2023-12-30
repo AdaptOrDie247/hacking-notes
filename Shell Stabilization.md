@@ -15,3 +15,11 @@ ctrl+z
 stty raw -echo; fg
 export TERM=xterm
 ```
+
+## Generate SSH Keys (Assuming SSH Accessible)
+
+Shell must be "stable" first, e.g., by using script or python.
+```
+ssh-keygen
+cat id_rsa.pub > ~/.ssh/authorized_keys
+```
