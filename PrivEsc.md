@@ -30,7 +30,7 @@ Modify vulnerable shell scripts, config files, environment variables, etc.
 Run LinPEAS.
 `find / -type f -user username 2>/dev/null` Find interesting files owned by username.
 `lsattr` Check for vulnerable file attributes.
-`getcap -r 2>/dev/null` Find tools on the system that can do network stuff.
+`getcap -r / 2>/dev/null` Find tools on the system that can do network stuff.
 Get OS kernel and release info with `uname -a`, `lsb_release -a`, or `cat /etc/*release`.
 ## Exploitation
 
