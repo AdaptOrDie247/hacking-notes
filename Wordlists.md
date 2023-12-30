@@ -14,3 +14,7 @@
 # Passwords
 
 `/usr/share/wordlists/rockyou.txt` (14,344,392 lines)
+
+# API Endpoints
+
+`/usr/share/seclists/Discovery/Web-Content/common-api-endpoints-mazen160.txt` (174 lines)
