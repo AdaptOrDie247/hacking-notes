@@ -32,6 +32,8 @@ Run LinPEAS.
 `lsattr` Check for vulnerable file attributes.
 `getcap -r / 2>/dev/null` Find tools on the system that can do network stuff.
 Get OS kernel and release info with `uname -a`, `lsb_release -a`, or `cat /etc/*release`.
+`ss -tlpn` Show all listening ports and processes.
+`netstat -ant` Show all TCP services.
 ## Exploitation
 
 Create SUID Bash (E.g., Leverage hacked cron job or container root access to host filesystem)
