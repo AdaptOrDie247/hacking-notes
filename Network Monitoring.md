@@ -4,3 +4,4 @@ Listen for network traffic
 
 Check for open ports
 `ss -tlpn`
+`netstat -ant`
