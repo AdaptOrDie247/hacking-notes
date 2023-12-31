@@ -49,7 +49,22 @@ Path Variable Hijacking (e.g., for cron job binary without absolute path)
 
 # Windows
 
-# Enumeration
+## Enumeration
+
+Net User Groups
+`net user username`
+
+Whoami Groups
+`whoami /groups`
+
+Enumerate Services (even when sc.exe is denied permission)
+`reg query "HKLM\System\CurrentControlSet\Services"`
+
+Get Service Details (sc.exe)
+`sc.exe qc servicename`
+
+Get Service Details (registry)
+`reg query "HKLM\System\CurrentControlSet\Services\servicename"`
 
 List Processes
 `get-process`
@@ -59,6 +74,3 @@ Dump Process Memory. E.g., Firefox, KeePassXC
 
 Extract Strings from Binary Files
 `strings -el process.dmp`
-
-Whoami Group Info
-`whoami /groups`
