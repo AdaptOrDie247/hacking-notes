@@ -24,5 +24,13 @@ zip2john file.zip > file.john
 john --wordlist=wordlist file.john
 ```
 
+Unshadow
+```
+echo -n passwduserline > passwd.txt
+echo -n shadowuserline > shadow.txt
+unshadow passwd.txt shadow.txt > unshadowed.txt
+john --wordlist=wordlist unshadowed.txt
+```
+
 List Formats
 `john --list=formats`
