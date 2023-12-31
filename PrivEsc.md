@@ -89,4 +89,7 @@ nc -lvnp port
 
 sc.exe stop servicename
 sc.exe start servicename
+
+WARNING: The above shell is unstable and will probably die after seconds.
+Use meterpreter instead.
 ```
