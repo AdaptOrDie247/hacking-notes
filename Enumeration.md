@@ -24,6 +24,11 @@ VHOST Fuzzing
 
 # SMB
 
+## enum4linux
+
+Enumerate common SMB info
+`enum4linux -a ipaddress`
+
 ## smbclient
 
 List Shares (" " username and pass)
@@ -31,6 +36,7 @@ List Shares (" " username and pass)
 
 Connect to Share
 `smbclient -U " "%" " \\\\ipaddress\\sharename`
+
 ## smbmap
 
 List Shares
