@@ -6,5 +6,7 @@ List Processes
 Migrate to Stable Process
 `migrate pid`
 
+# Interaction
+
 Launch Shell
 `shell`
