@@ -59,6 +59,9 @@ Net User Groups
 Whoami Groups
 `whoami /groups`
 
+Read PowerShell History
+`type c:\users\username\appdata\roaming\microsoft\windows\powershell\psreadline\consolehost_history.txt`
+
 Enumerate Services (even when sc.exe is denied permission)
 `reg query "HKLM\System\CurrentControlSet\Services"`
 
