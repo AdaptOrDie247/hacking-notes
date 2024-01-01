@@ -27,7 +27,7 @@ VHOST Fuzzing
 ## enum4linux
 
 Enumerate common SMB info
-`enum4linux -a ipaddress`
+`enum4linux ipaddress`
 
 ## smbclient
 
