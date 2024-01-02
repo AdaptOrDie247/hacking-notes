@@ -86,11 +86,11 @@ RCE Payload 2
 ## Manual
 
 Basic Error Test
-`text'`
+`value'`
 
 Confirm SQL Injection Possible (if error goes away)
 Note: The last dash protects the trailing space, which can get removed otherwise
-`text' -- -`
+`value' -- -`
 
 Circumvent Query Condition
 `' OR 1=1;--`
