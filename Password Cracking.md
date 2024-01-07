@@ -15,6 +15,8 @@ Crack SSH Keys
 ssh2john id_rsa > id_rsa.john
 
 john --wordlist=wordlist id_rsa.john
+
+Note: Get username from id_rsa.pub file.
 ```
 
 Crack zip files
