@@ -13,7 +13,7 @@ Manually enumerate user home directories for interesting files.
 `ls -al /` Look for signs that user is in a docker container.
 `findmnt` Find mounts connected to the system.
 `mount` Check for docker container or unsafe mounts.
-`env` View/modify environment variables.
+`export -p` and `env` View/modify environment variables.
 `echo $PATH` Check the path.
 Relative path program exploits.
 `sudo -l` List commands user can run as root.
@@ -39,6 +39,7 @@ Run LinPEAS.
 Get OS kernel and release info with `uname -a`, `lsb_release -a`, or `cat /etc/*release`.
 `ss -tlpn` Show all listening ports and processes.
 `netstat -ant` Show all TCP services.
+`find -perm -o=w 2>/dev/null` Find world-writable files.
 ## Exploitation
 
 Create SUID Bash (E.g., Leverage hacked cron job or container root access to host filesystem)
@@ -53,6 +54,10 @@ Execute SUID Bash
 
 Path Variable Hijacking (e.g., for cron job binary without absolute path)
 `export PATH=/tmp:$PATH`
+
+### rbash Breakout
+
+Literally just spawn a different shell. Use GTFOBins if needed.
 
 # Windows
 
