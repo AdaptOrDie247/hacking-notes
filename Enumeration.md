@@ -32,10 +32,10 @@ Enumerate common SMB info
 ## smbclient
 
 List Shares (" " username and pass)
-`smbclient -U " "%" " -L \\\\ipaddress\\`
+`smbclient -U " "%" " -L //ipaddress`
 
 Connect to Share
-`smbclient -U " "%" " \\\\ipaddress\\sharename`
+`smbclient -U " "%" " //ipaddress/sharename`
 
 ## smbmap
 
