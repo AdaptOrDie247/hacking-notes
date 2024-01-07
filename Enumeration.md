@@ -22,6 +22,11 @@ Directory Fuzzing
 VHOST Fuzzing
 `ffuf -u http://url -H "Host: FUZZ.url" -w wordlist -o output`
 
+## Wordpress
+
+wpscan
+`wpscan --url wordpressurl`
+
 # SMB
 
 ## enum4linux
