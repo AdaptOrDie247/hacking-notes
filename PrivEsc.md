@@ -1,5 +1,10 @@
 # Linux
 
+## linpeas
+
+Always run this when possible.
+`/usr/share/peass/linpeas/linpeas.sh`
+
 ## Enumeration
 
 `id` List user ID and groups.
@@ -50,6 +55,11 @@ Path Variable Hijacking (e.g., for cron job binary without absolute path)
 `export PATH=/tmp:$PATH`
 
 # Windows
+
+## winPEAS
+
+Always run this when possible.
+`/usr/share/peass/winpeas/winPEAS.bat`
 
 ## Enumeration
 
