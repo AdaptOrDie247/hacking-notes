@@ -42,6 +42,9 @@ Get OS kernel and release info with `uname -a`, `lsb_release -a`, or `cat /etc/*
 `find -perm -o=w 2>/dev/null` Find world-writable files.
 ## Exploitation
 
+Possible Simple Vector via Sudo
+`sudo su`
+
 Create SUID Bash (E.g., Leverage hacked cron job or container root access to host filesystem)
 ```
 cp /bin/bash /tmp/bash
