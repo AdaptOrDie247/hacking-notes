@@ -22,10 +22,20 @@ Directory Fuzzing
 VHOST Fuzzing
 `ffuf -u http://url -H "Host: FUZZ.url" -w wordlist -o output`
 
+Nikto Vuln Scan
+`nikto -host ipaddress`
 ## Wordpress
 
 wpscan
 `wpscan --url wordpressurl`
+
+# RPC
+
+rpcinfo
+`rpcinfo ipaddress`
+
+nmap RPC Port via UDP with Script (E.g., Port 111)
+`sudo nmap -sUC -p 111 -oA nm-udp-111 ipaddress`
 
 # SMB
 
