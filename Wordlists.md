@@ -15,6 +15,13 @@
 
 `/usr/share/wordlists/rockyou.txt` (14,344,392 lines)
 
+## Short Common Passwords Lists (SSH, etc.)
+
+```
+/usr/share/seclists/Passwords/Common-Credentials/500-worst-passwords.txt
+/usr/share/seclists/Passwords/Common-Credentials/top-20-common-SSH-passwords.txt
+```
+
 # API Endpoints
 
 `/usr/share/seclists/Discovery/Web-Content/common-api-endpoints-mazen160.txt` (174 lines)
