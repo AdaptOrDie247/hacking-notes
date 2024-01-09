@@ -87,4 +87,7 @@ start webserver
 powershell -enc payload.b64
 ```
 
+# PHP
 
+Pentest Monkey
+`/usr/share/webshells/php/php-reverse-shell.php`
