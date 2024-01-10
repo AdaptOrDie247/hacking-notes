@@ -58,6 +58,9 @@ Execute SUID Bash
 Path Variable Hijacking (e.g., for cron job binary without absolute path)
 `export PATH=/tmp:$PATH`
 
+Less (System Pager / Text Scroller) Exploitation :)
+`!/path/to/program`
+
 ### rbash Breakout
 
 Literally just spawn a different shell. Use GTFOBins if needed.
