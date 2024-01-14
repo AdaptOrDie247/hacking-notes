@@ -17,10 +17,13 @@ Directory Traversal
 `../` or `....//`
 
 Directory Fuzzing
-`ffuf -u http://url/FUZZ -w wordlist -o output`
+`ffuf -u http://url/FUZZ -w wordlist -o outfile`
+
+File Fuzzing
+`ffuf -u http://url/FUZZ -e .php -w wordlist -o outfile`
 
 VHOST Fuzzing
-`ffuf -u http://url -H "Host: FUZZ.url" -w wordlist -o output`
+`ffuf -u http://url -H "Host: FUZZ.url" -w wordlist -o outfile`
 
 Nikto Vuln Scan
 `nikto -host ipaddress`
