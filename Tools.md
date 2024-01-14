@@ -3,6 +3,7 @@
 Apache Directory Studio https://directory.apache.org/studio/downloads.html
 Avalonia ILSpy https://github.com/icsharpcode/AvaloniaILSpy/releases
 BloodHound https://github.com/BloodHoundAD/BloodHound/releases
+Beautifier https://beautifier.io/
 Chisel https://github.com/jpillora/chisel/releases
 CyberChef https://cyberchef.io/
 ffuf https://github.com/ffuf/ffuf
