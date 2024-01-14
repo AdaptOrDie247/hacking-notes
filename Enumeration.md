@@ -27,6 +27,11 @@ VHOST Fuzzing
 
 Nikto Vuln Scan
 `nikto -host ipaddress`
+
+## Execution After Redirect (EAR)
+
+Capture request in Burp, send to repeater, and disable following redirects. This can be used when applications rely solely on redirects to limit access to pages that get loaded even momentarily.
+
 ## Wordpress
 
 wpscan
