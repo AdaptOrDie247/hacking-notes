@@ -1,3 +1,8 @@
+# ID Hash
+
+hashid (-j shows corresponding JohnTheRipper format)
+`echo -n 'hash' | hashid -j`
+
 # John
 
 Crack GPG Keys
