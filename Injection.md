@@ -137,6 +137,8 @@ JSON API
 
 # XML External Entity
 
+For best results, don't modify any formatting found used by the client/server.
+
 ## LFI Method 1
 
 ```
