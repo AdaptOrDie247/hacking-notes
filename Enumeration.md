@@ -1,3 +1,18 @@
+
+# Android
+
+Connect to ADB (Android Debug Bridge), Default Port TCP 5555
+`adb connect ipaddress:port`
+
+List Connected Devices
+`adb devices`
+
+Get Shell
+`adb shell`
+
+Get Root Shell
+`adb root`
+
 # DNS
 
 Get Records
