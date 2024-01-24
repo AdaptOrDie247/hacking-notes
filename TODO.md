@@ -5,3 +5,6 @@
 
 - Learn about how this works:
 - `http://ipaddress/?page=php://filter/convert.base64-encode/resource=config`
+
+- Learn about `rlwrap` and other methods for automating shell stabilization (`powercat`?).
+	- Note that `rlwrap` doesn't protect against control characters (by default?).
