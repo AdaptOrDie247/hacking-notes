@@ -26,7 +26,9 @@ Zone Transfer
 Anonymous Login
 `ftp anonymous@ipaddress`
 
-# HTTP
+# HTTP/S
+
+Check domain info via TLS cert
 
 Directory Traversal
 `../` or `....//`
