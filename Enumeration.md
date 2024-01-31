@@ -54,6 +54,14 @@ Capture request in Burp, send to repeater, and disable following redirects. This
 wpscan
 `wpscan --url wordpressurl`
 
+# NFS
+
+Show NFS server export list
+`showmount -e ipaddress`
+
+Mount directory
+`sudo mount -t nfs [-o vers=2] ipaddress:/directory ./directory -o nolock`
+
 # RPC
 
 rpcinfo
