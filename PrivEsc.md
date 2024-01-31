@@ -95,6 +95,9 @@ Get Service Details (registry)
 List Processes
 `get-process`
 
+List processes and associated services (cmd)
+`tasklist /svc`
+
 Dump Process Memory. E.g., Firefox, KeePassXC
 `procdump.exe -ma pid process.dmp`
 
