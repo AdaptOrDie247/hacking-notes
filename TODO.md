@@ -8,3 +8,8 @@
 
 - Learn about `rlwrap` and other methods for automating shell stabilization (`powercat`?).
 	- Note that `rlwrap` doesn't protect against control characters (by default?).
+
+Notes from other hackers:
+- C:\Windows\Tasks possible good writable location.
+- Invoke-Command Good to know.
+- Migrate to Conhost for stable shell.
