@@ -54,6 +54,17 @@ Capture request in Burp, send to repeater, and disable following redirects. This
 wpscan
 `wpscan --url wordpressurl`
 
+# LDAP
+
+List LDAP Info
+`ldapsearch -H ldap://ipaddress -x -b "dc=name,dc=tld"`
+
+Enumerate Users
+`python3 windapsearch.py -d fqdn --dc-ip ipaddress -U`
+
+Enumerate All Objects
+`python3 windapsearch.py -d fqdn --dc-ip ipaddress --custom "objectClass=*"`
+
 # NFS
 
 Show NFS server export list
@@ -110,6 +121,12 @@ Scan SNMP v1 Service, Output to File
 `snmpwalk -v 1 -c public ipaddress > snmp.log`
 
 # TCP/IP
+
+Famous HTB Nmap Voodoo
+```
+ports=$(sudo nmap -p- --min-rate=1000 -T4 ipaddress | grep ^[0-9] | cut -d '/' -f 1 | tr '\n' ',' | sed s/,$//)
+sudo nmap -sC -sV -p$ports ipaddress
+```
 
 Quickly Scan All Ports
 `sudo nmap -sS --min-rate 1000 -T4 -p- -v -oA nmap-tcp ipaddress`
