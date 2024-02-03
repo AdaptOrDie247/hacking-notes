@@ -3,6 +3,7 @@
 Apache Directory Studio https://directory.apache.org/studio/downloads.html
 Avalonia ILSpy https://github.com/icsharpcode/AvaloniaILSpy/releases
 BloodHound https://github.com/BloodHoundAD/BloodHound/releases
+(pip install bloodhound for bloodhound-python)
 Beautifier https://beautifier.io/
 Chisel https://github.com/jpillora/chisel/releases
 CyberChef https://cyberchef.io/
@@ -16,9 +17,11 @@ Kubeletctl https://github.com/cyberark/kubeletctl/releases
 Mono https://www.mono-project.com/download/stable/
 Nishang PowerShell Revshell https://github.com/samratashok/nishang/blob/master/Shells/Invoke-PowerShellTcp.ps1
 PowerSploit https://github.com/PowerShellMafia/PowerSploit
+PowerView https://github.com/PowerShellMafia/PowerSploit/blob/dev/Recon/PowerView.ps1
 ProcDump https://learn.microsoft.com/en-us/sysinternals/downloads/procdump
 Pspy https://github.com/DominicBreuker/pspy/releases
 Rubeus https://github.com/GhostPack/Rubeus
+windapsearch https://github.com/ropnop/windapsearch
 # Linux
 
 `apktool` Extract APK source code.
