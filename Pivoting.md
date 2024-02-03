@@ -18,7 +18,11 @@ Client
 
 # PsExec
 
+Using Creds
 `impacket-psexec 'user:pass@ipaddress'`
+
+Using Hash
+`impacket-psexec username@ipaddress -hashes ntlmhashpart1:ntlmhashpart2`
 
 # Socks Proxy
 
