@@ -59,10 +59,13 @@ wpscan
 List LDAP Info
 `ldapsearch -H ldap://ipaddress -x -b "dc=name,dc=tld"`
 
-Enumerate Users
+Enumerate Users (impacket)
+`impacket-GetADUsers fqdn/ -dc-ip ipaddress -debug`
+
+Enumerate Users (windapsearch)
 `python3 windapsearch.py -d fqdn --dc-ip ipaddress -U`
 
-Enumerate All Objects
+Enumerate All Objects (windapsearch)
 `python3 windapsearch.py -d fqdn --dc-ip ipaddress --custom "objectClass=*"`
 
 # NFS
