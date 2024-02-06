@@ -124,8 +124,8 @@ Scan SNMP v1 Service, Output to File
 
 Famous HTB Nmap Voodoo
 ```
-ports=$(sudo nmap -p- --min-rate=1000 -T4 ipaddress | grep ^[0-9] | cut -d '/' -f 1 | tr '\n' ',' | sed s/,$//)
-sudo nmap -sC -sV -p$ports ipaddress
+ports=$(sudo nmap -sS -p- --min-rate=1000 -T4 ipaddress | grep ^[0-9] | cut -d '/' -f 1 | tr '\n' ',' | sed s/,$//)
+sudo nmap -sSCV -p$ports ipaddress
 ```
 
 Quickly Scan All Ports
