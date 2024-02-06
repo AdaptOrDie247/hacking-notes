@@ -21,6 +21,7 @@ PowerView https://github.com/PowerShellMafia/PowerSploit/blob/dev/Recon/PowerVie
 ProcDump https://learn.microsoft.com/en-us/sysinternals/downloads/procdump
 Pspy https://github.com/DominicBreuker/pspy/releases
 Rubeus https://github.com/GhostPack/Rubeus
+Username Anarchy https://github.com/urbanadventurer/username-anarchy
 windapsearch https://github.com/ropnop/windapsearch
 # Linux
 
