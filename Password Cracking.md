@@ -5,6 +5,12 @@ hashid (-j shows corresponding JohnTheRipper format)
 
 # John
 
+## Important Note
+John is not perfect at detecting hashes. For example, unless you specify --format=NT for NTLM hashes, it will not successfully crack them.
+
+Crack NTLM Hash
+`john --format=NT --wordlist=wordlist user.hash`
+
 Crack GPG Keys
 ```
 gpg2john key.asc > key.john
