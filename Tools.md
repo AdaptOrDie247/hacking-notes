@@ -14,6 +14,7 @@ gRPCurl https://github.com/fullstorydev/grpcurl
 jsfinder https://github.com/kacakb/jsfinder
 JWT https://jwt.io/
 Kubeletctl https://github.com/cyberark/kubeletctl/releases
+MDB Tools https://github.com/mdbtools/mdbtools
 Mono https://www.mono-project.com/download/stable/
 Nishang PowerShell Revshell https://github.com/samratashok/nishang/blob/master/Shells/Invoke-PowerShellTcp.ps1
 PowerSploit https://github.com/PowerShellMafia/PowerSploit
