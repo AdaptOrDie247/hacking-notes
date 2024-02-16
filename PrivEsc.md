@@ -1,3 +1,8 @@
+
+The first rule of privesc...
+# ALWAYS *THOROUGHLY* LOOK AROUND FIRST!
+
+
 # Linux
 
 ## linpeas
