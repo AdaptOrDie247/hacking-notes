@@ -17,6 +17,7 @@ Kubeletctl https://github.com/cyberark/kubeletctl/releases
 MDB Tools https://github.com/mdbtools/mdbtools
 Mono https://www.mono-project.com/download/stable/
 Nishang PowerShell Revshell https://github.com/samratashok/nishang/blob/master/Shells/Invoke-PowerShellTcp.ps1
+Nishang PowerShell Revshell OneLine https://github.com/samratashok/nishang/blob/master/Shells/Invoke-PowerShellTcpOneLine.ps1
 PowerSploit https://github.com/PowerShellMafia/PowerSploit
 PowerView https://github.com/PowerShellMafia/PowerSploit/blob/dev/Recon/PowerView.ps1
 ProcDump https://learn.microsoft.com/en-us/sysinternals/downloads/procdump
