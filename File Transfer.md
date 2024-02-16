@@ -10,6 +10,14 @@ Copy & paste with base64 encoding.
 `scp` Remote file copy via SSH.
 `wget` Retrieve remote files.
 
+# FTP
+
+Use ASCII mode for transferring text files.
+`ascii`
+
+Use binary mode for transferring all other file types.
+`binary`
+
 # Netcat
 
 Receiving End
