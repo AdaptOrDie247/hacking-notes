@@ -1,3 +1,6 @@
+Check File/Folder Permissions
+`icacls filefoldername`
+
 Create Domain User
 `net user username password /add /domain`
 
