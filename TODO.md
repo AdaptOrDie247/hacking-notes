@@ -9,6 +9,12 @@
 - Learn about `rlwrap` and other methods for automating shell stabilization (`powercat`?).
 	- Note that `rlwrap` doesn't protect against control characters (by default?).
 
+- Explore PowerCat (remnant from my memory):
+	- https://github.com/secabstraction/PowerCat
+- Also, PowerSploit:
+	- https://github.com/PowerShellMafia/PowerSploit
+- Finish figuring out how to render special characters from winPEAS output in text file copied to Kali.
+
 Notes from other hackers:
 - C:\\Windows\\Tasks possible good writable location.
 - Invoke-Command Good to know.
