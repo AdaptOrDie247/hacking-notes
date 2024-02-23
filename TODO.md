@@ -15,6 +15,8 @@
 	- https://github.com/PowerShellMafia/PowerSploit
 - Finish figuring out how to render special characters from winPEAS output in text file copied to Kali.
 
+On HTB "Active" Box, could not specify -U ' '%' '  for smbclient. This resulted in logon failure. Had to leave out that param to connect... Figure out why!
+
 Notes from other hackers:
 - C:\\Windows\\Tasks possible good writable location.
 - Invoke-Command Good to know.
