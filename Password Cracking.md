@@ -47,3 +47,11 @@ john --wordlist=wordlist unshadowed.txt
 
 List Formats
 `john --list=formats`
+
+# hashcat
+
+Hash Code Reference:
+https://hashcat.net/wiki/doku.php?id=example_hashes
+
+Crack TGS Hash
+`hashcat -m 13100 hashfile wordlist --force --potfile-disable`
