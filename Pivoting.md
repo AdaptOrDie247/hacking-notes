@@ -73,6 +73,10 @@ To proxychains this, edit /etc/proxychains4.conf:
 socks5 127.0.0.1 port username password
 ```
 
+# wmiexec
+
+`impacket-wmiexec domain/username:password@ipaddress`
+
 # WinRM
 
 Evil-WinRM
