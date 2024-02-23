@@ -60,13 +60,19 @@ List LDAP Info
 `ldapsearch -H ldap://ipaddress -x -b "dc=name,dc=tld"`
 
 Enumerate Users (impacket)
-`impacket-GetADUsers fqdn/ -dc-ip ipaddress -debug`
+`impacket-GetADUsers domain/ -dc-ip ipaddress -debug`
+
+Enumerate SPNs (impacket)
+`impacket-GetUserSPNs domain/username:password -dc-ip ipaddress -debug`
+
+Request TGS for Users
+`impacket-GetUserSPNs domain/username:password -dc-ip ipaddress -debug -request`
 
 Enumerate Users (windapsearch)
-`python3 windapsearch.py -d fqdn --dc-ip ipaddress -U`
+`python3 windapsearch.py -d domain --dc-ip ipaddress -U`
 
 Enumerate All Objects (windapsearch)
-`python3 windapsearch.py -d fqdn --dc-ip ipaddress --custom "objectClass=*"`
+`python3 windapsearch.py -d domain --dc-ip ipaddress --custom "objectClass=*"`
 
 # NFS
 
@@ -98,6 +104,13 @@ List Shares (" " username and pass)
 
 Connect to Share
 `smbclient -U ' '%' ' //ipaddress/sharename`
+
+Recursively Download Files From Share
+```
+smb: \> recurse on
+smb: \> prompt off
+smb: \> mget *
+```
 
 ## smbmap
 
