@@ -74,14 +74,6 @@ windapsearch https://github.com/ropnop/windapsearch
 `wpscan` Enumerate WordPress sites.
 `xxd` Convert to/from hex.
 
-## Improvised
-
-Bash Port Scanner
-```
-for PORT in {0..1000}; do timeout 1 bash -c "</dev/tcp/ipaddress/$PORT
-&>/dev/null" 2>/dev/null && echo "port $PORT is open"; done
-```
-
 # Windows
 
 `Get-ADDomain` Confirm if a system is a DC (comes preinstalled on DCs).

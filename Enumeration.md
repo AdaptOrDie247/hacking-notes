@@ -138,6 +138,12 @@ Scan SNMP v1 Service, Output to File
 
 # TCP/IP
 
+Bash Port Scanner
+```
+for PORT in {0..1000}; do timeout 1 bash -c "</dev/tcp/ipaddress/$PORT
+&>/dev/null" 2>/dev/null && echo "port $PORT is open"; done
+```
+
 Famous HTB Nmap Voodoo
 ```
 ports=$(sudo nmap -sS -p- --min-rate=1000 -T4 ipaddress | grep ^[0-9] | cut -d '/' -f 1 | tr '\n' ',' | sed s/,$//)
