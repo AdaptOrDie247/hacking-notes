@@ -37,7 +37,7 @@ Directory Fuzzing
 `ffuf -u http://url/FUZZ -w wordlist -o outfile`
 
 File Fuzzing
-`ffuf -u http://url/FUZZ -e .php -w wordlist -o outfile`
+`ffuf -u http://url/FUZZ -e .asp,.aspx,.config,.php -w wordlist -o outfile`
 
 VHOST Fuzzing
 `ffuf -u http://url -H "Host: FUZZ.url" -w wordlist -o outfile`
