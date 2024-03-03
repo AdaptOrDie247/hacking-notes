@@ -11,6 +11,7 @@ ffuf https://github.com/ffuf/ffuf
 Genymotion https://www.genymotion.com/download/
 git-dumper https://github.com/arthaud/git-dumper
 gRPCurl https://github.com/fullstorydev/grpcurl
+hunter https://hunter.io/
 IIS ShortName Scanner https://github.com/irsdl/IIS-ShortName-Scanner
 jsfinder https://github.com/kacakb/jsfinder
 JWT https://jwt.io/
