@@ -5,6 +5,7 @@ Avalonia ILSpy https://github.com/icsharpcode/AvaloniaILSpy/releases
 BloodHound https://github.com/BloodHoundAD/BloodHound/releases
 (pip install bloodhound for bloodhound-python)
 Beautifier https://beautifier.io/
+Certipy https://github.com/ly4k/Certipy
 Chisel https://github.com/jpillora/chisel/releases
 CyberChef https://cyberchef.io/
 ffuf https://github.com/ffuf/ffuf
