@@ -3,6 +3,9 @@
 Look for any vulnerable AD certificate templates (Part of Active Directory Certificate Services - AD CS)
 `certipy-ad find -u username@domain -p 'password' -dc-ip ipaddress -vulnerable`
 
+Get Machine Account Quota using crackmapexec (Show max # accounts allowed)
+`crackmapexec ldap targetip -u username -p 'password' -M MAQ`
+
 # Android
 
 Connect to ADB (Android Debug Bridge), Default Port TCP 5555
