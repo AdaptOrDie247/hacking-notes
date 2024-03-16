@@ -31,6 +31,7 @@ Pspy https://github.com/DominicBreuker/pspy/releases
 Rubeus https://github.com/GhostPack/Rubeus
 Username Anarchy https://github.com/urbanadventurer/username-anarchy
 Wappalyzer https://www.wappalyzer.com/
+WhatWeb https://github.com/urbanadventurer/WhatWeb
 Win7Blue https://github.com/d4t4s3c/Win7Blue
 windapsearch https://github.com/ropnop/windapsearch
 # Linux
