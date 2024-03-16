@@ -1,5 +1,6 @@
 # Downloads
 
+amass https://github.com/owasp-amass/amass
 Apache Directory Studio https://directory.apache.org/studio/downloads.html
 Avalonia ILSpy https://github.com/icsharpcode/AvaloniaILSpy/releases
 BloodHound https://github.com/BloodHoundAD/BloodHound/releases
@@ -7,6 +8,7 @@ BloodHound https://github.com/BloodHoundAD/BloodHound/releases
 Beautifier https://beautifier.io/
 Certipy https://github.com/ly4k/Certipy
 Chisel https://github.com/jpillora/chisel/releases
+crt.sh https://crt.sh/
 CyberChef https://cyberchef.io/
 ffuf https://github.com/ffuf/ffuf
 Genymotion https://www.genymotion.com/download/
