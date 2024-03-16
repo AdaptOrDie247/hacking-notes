@@ -1,6 +1,6 @@
 # Active Directory
 
-Look for any vulnerable AD certificate templates
+Look for any vulnerable AD certificate templates (Part of Active Directory Certificate Services - AD CS)
 `certipy-ad find -u username@domain -p 'password' -dc-ip ipaddress -vulnerable`
 
 # Android
