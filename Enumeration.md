@@ -107,8 +107,8 @@ Connect to Share
 
 Recursively Download Files From Share
 ```
-smb: \> recurse on
 smb: \> prompt off
+smb: \> recurse on
 smb: \> mget *
 ```
 
