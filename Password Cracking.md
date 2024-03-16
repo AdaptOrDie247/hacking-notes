@@ -37,6 +37,17 @@ zip2john file.zip > file.john
 john --wordlist=wordlist file.john
 ```
 
+Crack Ansible Vault Hashes
+```
+Remove whitespace from vault hashes
+	E.g., sed -i 's/^[ \t]*//' hash1
+
+ansible2john hash1 > hash1.john
+
+You can actually crack these in hashcat... (-m 16900 = ansible hash)
+hashcat -m 16900 hashes.john wordlist
+```
+
 Unshadow
 ```
 echo -n passwduserline > passwd.txt
