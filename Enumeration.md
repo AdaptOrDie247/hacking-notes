@@ -1,3 +1,7 @@
+# Active Directory
+
+Look for any vulnerable AD certificate templates
+`certipy-ad find -u username@domain -p 'password' -dc-ip ipaddress -vulnerable`
 
 # Android
 
