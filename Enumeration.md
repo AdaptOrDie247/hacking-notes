@@ -86,7 +86,11 @@ Enumerate All Objects (windapsearch)
 
 # MS SQL
 
+Connect to MS SQL server
 `impacket-mssqlclient windomainname/username:password@fqdn -windows-auth`
+
+Browser remote file system
+`xp_dirtree path`
 
 # NFS
 
