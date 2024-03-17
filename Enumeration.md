@@ -1,5 +1,8 @@
 # Active Directory
 
+User enumeration via RID cycling when SMB null sessions allowed
+`impacket-lookupsid anonymous@domain -no-pass`
+
 Look for any vulnerable AD certificate templates (Part of Active Directory Certificate Services - AD CS)
 `certipy-ad find -u username@domain -p 'password' -dc-ip ipaddress -vulnerable`
 
