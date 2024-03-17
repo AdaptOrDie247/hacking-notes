@@ -84,6 +84,10 @@ Enumerate Users (windapsearch)
 Enumerate All Objects (windapsearch)
 `python3 windapsearch.py -d domain --dc-ip ipaddress --custom "objectClass=*"`
 
+# MS SQL
+
+`impacket-mssqlclient windomainname/username:password@fqdn -windows-auth`
+
 # NFS
 
 Show NFS server export list
