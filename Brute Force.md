@@ -15,6 +15,11 @@ Brute Force Service
 File user:pass Format
 `hydra -C userpass.txt ipaddress servicename`
 
+# NetExec
+
+Password spray username = password creds
+`netexec smb ipaddress -u users.txt -p users.txt --no-bruteforce --continue-on-success`
+
 # Username Anarchy
 
 Generate Usernames From Full Names
