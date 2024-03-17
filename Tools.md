@@ -22,6 +22,7 @@ JWT https://jwt.io/
 Kubeletctl https://github.com/cyberark/kubeletctl/releases
 MDB Tools https://github.com/mdbtools/mdbtools
 Mono https://www.mono-project.com/download/stable/
+NetExec https://github.com/Pennyw0rth/NetExec
 Nishang PowerShell Revshell https://github.com/samratashok/nishang/blob/master/Shells/Invoke-PowerShellTcp.ps1
 Nishang PowerShell Revshell OneLine https://github.com/samratashok/nishang/blob/master/Shells/Invoke-PowerShellTcpOneLine.ps1
 PowerSploit https://github.com/PowerShellMafia/PowerSploit
