@@ -120,8 +120,16 @@ Enumerate common SMB info
 List Shares (" " username and pass)
 `smbclient -U ' '%' ' -L //ipaddress`
 
+List Shares (send username, but no pass)
+Sometimes sending blank creds doesn't work, but this does.
+`smbclient -NL //ipaddress`
+
 Connect to Share
 `smbclient -U ' '%' ' //ipaddress/sharename`
+
+Connect to Share with username/creds
+Works sometimes when sending blank creds fails
+`smbclient //ipaddress/sharename`
 
 Recursively Download Files From Share
 ```
