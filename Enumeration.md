@@ -129,7 +129,7 @@ Connect to Share
 
 Connect to Share with username/creds
 Works sometimes when sending blank creds fails
-`smbclient //ipaddress/sharename`
+`smbclient -N //ipaddress/sharename`
 
 Recursively Download Files From Share
 ```
