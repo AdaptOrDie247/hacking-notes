@@ -9,6 +9,11 @@ Look for any vulnerable AD certificate templates (Part of Active Directory Certi
 Get Machine Account Quota using crackmapexec (Show max # accounts allowed)
 `crackmapexec ldap targetip -u username -p 'password' -M MAQ`
 
+## SharpHound Collection
+
+Collect All Info
+`SharpHound.exe -C All`
+
 # Android
 
 Connect to ADB (Android Debug Bridge), Default Port TCP 5555
