@@ -3,7 +3,7 @@
 amass https://github.com/owasp-amass/amass
 Apache Directory Studio https://directory.apache.org/studio/downloads.html
 Avalonia ILSpy https://github.com/icsharpcode/AvaloniaILSpy/releases
-BloodHound https://github.com/BloodHoundAD/BloodHound/releases
+BloodHound https://github.com/SpecterOps/BloodHound
 (pip install bloodhound for bloodhound-python)
 Beautifier https://beautifier.io/
 BuiltWith https://builtwith.com/
@@ -26,11 +26,13 @@ Mono https://www.mono-project.com/download/stable/
 NetExec https://github.com/Pennyw0rth/NetExec
 Nishang PowerShell Revshell https://github.com/samratashok/nishang/blob/master/Shells/Invoke-PowerShellTcp.ps1
 Nishang PowerShell Revshell OneLine https://github.com/samratashok/nishang/blob/master/Shells/Invoke-PowerShellTcpOneLine.ps1
+PowerSharpPack https://github.com/S3cur3Th1sSh1t/PowerSharpPack
 PowerSploit https://github.com/PowerShellMafia/PowerSploit
 PowerView https://github.com/PowerShellMafia/PowerSploit/blob/dev/Recon/PowerView.ps1
 ProcDump https://learn.microsoft.com/en-us/sysinternals/downloads/procdump
 Pspy https://github.com/DominicBreuker/pspy/releases
-Rubeus https://github.com/GhostPack/Rubeus
+Rubeus https://github.com/r3motecontrol/Ghostpack-CompiledBinaries
+SharpHound https://github.com/BloodHoundAD/SharpHound
 Username Anarchy https://github.com/urbanadventurer/username-anarchy
 Wappalyzer https://www.wappalyzer.com/
 WhatWeb https://github.com/urbanadventurer/WhatWeb
