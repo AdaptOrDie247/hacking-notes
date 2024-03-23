@@ -71,6 +71,9 @@ wpscan
 
 # LDAP
 
+Get LDAP Naming Contexts, Unauthenticated
+`ldapsearch -H ldap://ipaddress -x -s base namingcontexts`
+
 List LDAP Info
 `ldapsearch -H ldap://ipaddress -x -b "dc=name,dc=tld"`
 
@@ -78,7 +81,10 @@ Enumerate Users (impacket)
 `impacket-GetADUsers domain/ -dc-ip ipaddress -debug`
 
 Enumerate SPNs (impacket)
-`impacket-GetUserSPNs domain/username:password -dc-ip ipaddress -debug`
+`impacket-GetUserSPNs domain/user:pass -dc-ip ipaddress -debug`
+
+Enumerate SPNs with Kerberos Auth
+`impacket-GetUserSPNs domain/user:pass -dc-ip ipaddress -request -k -debug`
 
 Request TGS for Users
 `impacket-GetUserSPNs domain/username:password -dc-ip ipaddress -debug -request`
@@ -119,6 +125,11 @@ nmap RPC Port via UDP with Script (E.g., Port 111)
 
 Enumerate common SMB info
 `enum4linux ipaddress`
+
+## impacket-smbclient
+
+Connect to Target using account with Kerberos auth
+`impacket-smbclient -k domain/user:pass@targetfqdn -dc-ip dcipaddress`
 
 ## smbclient
 
