@@ -19,6 +19,7 @@ gRPCurl https://github.com/fullstorydev/grpcurl
 hunter https://hunter.io/
 IIS ShortName Scanner https://github.com/irsdl/IIS-ShortName-Scanner
 jsfinder https://github.com/kacakb/jsfinder
+JuicyPotatoNG https://github.com/antonioCoco/JuicyPotatoNG
 JWT https://jwt.io/
 Kubeletctl https://github.com/cyberark/kubeletctl/releases
 MDB Tools https://github.com/mdbtools/mdbtools
