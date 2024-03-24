@@ -8,4 +8,6 @@ These notes must be viewed using [Obsidian](https://obsidian.md/) for correct fo
 
 # Side Note
 
-I originally underestimated the amount of notes I would take. This has resulted in my notes organization not scaling well. I'm currently in the process or re-organizing my notes.
+I am in the process of re-organizing these notes.
+
+I originally underestimated the amount of notes I would take. This has resulted in my notes organization not scaling well.
