@@ -10,6 +10,7 @@ BuiltWith https://builtwith.com/
 Certify https://github.com/GhostPack/Certify
 Certipy https://github.com/ly4k/Certipy
 Chisel https://github.com/jpillora/chisel/releases
+CrackStation https://crackstation.net/
 crt.sh https://crt.sh/
 CyberChef https://cyberchef.io/
 ffuf https://github.com/ffuf/ffuf
