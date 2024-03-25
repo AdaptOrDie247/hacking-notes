@@ -1,0 +1,1 @@
+`bloodhound-python -d streamio.htb -u JDgodd -p 'password' -gc dc.streamio.htb -ns 10.129.37.66 -c all`
