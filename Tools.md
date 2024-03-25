@@ -14,6 +14,7 @@ CrackStation https://crackstation.net/
 crt.sh https://crt.sh/
 CyberChef https://cyberchef.io/
 ffuf https://github.com/ffuf/ffuf
+firepwd https://github.com/lclevy/firepwd
 Genymotion https://www.genymotion.com/download/
 git-dumper https://github.com/arthaud/git-dumper
 gRPCurl https://github.com/fullstorydev/grpcurl
