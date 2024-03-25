@@ -1,0 +1,1 @@
+`ffuf -u 'https://streamio.htb/admin/FUZZ' -e .php -b 'PHPSESSID=bdoga8oui5bvm3q3aum7v0j35s' -w /usr/share/seclists/Discovery/Web-Content/common.txt`
