@@ -1,0 +1,1 @@
+`netexec smb streamio.htb -u users.txt -p passwords.txt`
