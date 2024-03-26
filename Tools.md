@@ -17,12 +17,14 @@ ffuf https://github.com/ffuf/ffuf
 firepwd https://github.com/lclevy/firepwd
 Genymotion https://www.genymotion.com/download/
 git-dumper https://github.com/arthaud/git-dumper
+gMSADumper https://github.com/micahvandeusen/gMSADumper
 gRPCurl https://github.com/fullstorydev/grpcurl
 hunter https://hunter.io/
 IIS ShortName Scanner https://github.com/irsdl/IIS-ShortName-Scanner
 jsfinder https://github.com/kacakb/jsfinder
 JuicyPotatoNG https://github.com/antonioCoco/JuicyPotatoNG
 JWT https://jwt.io/
+krbrelayx https://github.com/dirkjanm/krbrelayx
 Kubeletctl https://github.com/cyberark/kubeletctl/releases
 MDB Tools https://github.com/mdbtools/mdbtools
 Mono https://www.mono-project.com/download/stable/
