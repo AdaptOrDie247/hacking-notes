@@ -17,8 +17,11 @@ File user:pass Format
 
 # NetExec
 
-Password spray username = password creds
-`netexec smb ipaddress -u users.txt -p users.txt --no-bruteforce --continue-on-success`
+Password spray one pass (e.g., default new user pass)
+`nxc smb ipaddress -u userlist.txt -p 'password' --continue-on-success`
+
+Password spray username = password cred combinations
+`nxc smb ipaddress -u users.txt -p users.txt --no-bruteforce --continue-on-success`
 
 # Username Anarchy
 
